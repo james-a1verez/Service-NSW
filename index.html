@@ -3,12 +3,17 @@
 <head>
   <meta charset="UTF-8">
 
+  <!-- App name -->
   <title>Service NSW</title>
 
-  <!-- Home Screen app name (iPhone) -->
+  <!-- iPhone Home Screen name -->
   <meta name="apple-mobile-web-app-title" content="Service NSW">
 
-  <!-- Home Screen icon -->
+  <!-- Make it behave like an app -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Icon -->
   <link rel="apple-touch-icon" href="icon.png">
 
   <style>
@@ -24,12 +29,9 @@
   <h2>Opening Service NSW...</h2>
 
   <script>
-    // Redirect to ProtoPie after load
     setTimeout(function () {
       window.location.href = "https://cloud.protopie.io/p/d1938170f1e12e45b59c7387";
     }, 300);
   </script>
-</body>
-</html>
 </body>
 </html>
